@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: unrealplace-bot
+    env: python
+    plan: free
+    region: frankfurt
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python server.py"
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: 8130756124:AAHwb-DRaY-f9ELWDSlOAH6LMnj04nR8tiI
+      - key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN0ZXR4ZmJxdmVhandpcnNua25xIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDM2MDQwODAsImV4cCI6MjA1OTE4MDA4MH0.2oC0cDKz2D0NS8qrQ2nFt6p9iuMI4SwzdWMVibap5cU
+        value: secret_value
