@@ -3,6 +3,14 @@ python-dotenv==1.0.1
 pandas==2.2.2
 numpy==1.26.4
 supabase==1.2.0
+<<<<<<< HEAD
 httpx==0.25.2
 
 
+=======
+<<<<<<< HEAD
+httpx==0.25.2
+=======
+httpx==0.24.1
+>>>>>>> origin/main
+>>>>>>> origin/main
